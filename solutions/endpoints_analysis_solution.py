@@ -115,4 +115,5 @@ if __name__ == "__main__":
     analyze_x_distribution(endpoints)
     
     plt.tight_layout()
+    plt.savefig('filename.png')
     plt.show()
